@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-    db, err := sql.Open("mysql", "root:admocode@/architalks")
+    db, err := sql.Open("mysql", "user:password@/database")
 
     if err != nil {
         panic(err)
